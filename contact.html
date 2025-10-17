@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Nishitha Pushpa Karan</title>
+  <link rel="stylesheet" href="common_style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #C889B5;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      background-color: #BFA2DB;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav a.active {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .icon-row {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    a img {
+      width: 60px;
+      height: 60px;
+      transition: transform 0.3s ease;
+    }
+    a img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      background-color: #A084CA;
+      color: black;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!--Navigation Bar-->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <!--Content-->
+  <main>
+    <div>
+      <h1>Interested in working together? Let's talk.</h1>
+      <div class="icon-row">
+        <a href="https://github.com/npushpakaran" target="_blank">
+          <img src="github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/nishitha-karan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+          <img src="linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="mailto:npushpakaran@albany.edu">
+          <img src="email.png" alt="Email">
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Nishitha Pushpa Karan | Let’s connect 💜
+  </footer>
+
+</body>
+</html>
